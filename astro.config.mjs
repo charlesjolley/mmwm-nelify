@@ -7,7 +7,7 @@ import starlight from "@astrojs/starlight";
 // https://astro.build/config
 export default defineConfig({
   // https://docs.astro.build/en/guides/images/#authorizing-remote-images
-  site: "https://screwfast.uk",
+  site: "https://harmonious-kelpie-3a4cfa.netlify.app",
   image: {
     domains: ["images.unsplash.com"],
   },
@@ -22,6 +22,7 @@ export default defineConfig({
   //   },
   // },
   prefetch: true,
+  // trailingSlash: "never",
   integrations: [
     tailwind(),
     sitemap({
