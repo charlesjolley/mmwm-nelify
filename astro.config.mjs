@@ -3,6 +3,7 @@ import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
 import compressor from "astro-compressor";
 import starlight from "@astrojs/starlight";
+import { shield } from '@kindspells/astro-shield'
 
 
 // https://astro.build/config
@@ -117,7 +118,8 @@ export default defineConfig({
     compressor({
       gzip: false,
       brotli: true,
-    })
+    }),
+    shield({})
   ],
   experimental: {
     clientPrerender: true,
