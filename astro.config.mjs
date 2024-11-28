@@ -119,7 +119,17 @@ export default defineConfig({
       gzip: false,
       brotli: true,
     }),
-    shield({})
+    shield({
+      enableOnStaticPages: { provider: "netlify" },
+      securityHeaders: {
+
+        contentSecurityPolicy: {
+          cspDirectives: {
+            'default-src': "'none'",
+          }
+        }
+      }
+    })
   ],
   experimental: {
     clientPrerender: true,
