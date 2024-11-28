@@ -1350,7 +1350,7 @@ astro-vtbot@^1.10.7:
     "@vtbag/inspection-chamber" "^1.0.17"
     "@vtbag/turn-signal" "^1.1.0"
 
-astro@^4.16.14:
+astro@^4.16.16:
   version "4.16.16"
   resolved "https://registry.yarnpkg.com/astro/-/astro-4.16.16.tgz#cb33d1aa5331bd240486d7756345a6276383fc9b"
   integrity sha512-H1CttrV6+JFrDBQx0Mcbq5i5AeLhCbztB786+9wEu3svWL/QPNeCGqF0dgNORAYmP+rODGCPu/y9qKSh87iLuA==
