@@ -1,13 +1,6 @@
 // Define data structures for services and success stories
 export const servicesData = [
   {
-    title: "Explore Advice and Explanations",
-    description:
-      "Dive deep into helpful guides and explanations for all of ScrewFast's features",
-    icon: "guides",
-    url: "#",
-  },
-  {
     title: "Discover Integrations",
     description:
       "Supercharge Your Workflow. Seamless integrations with all your favorite tools",
