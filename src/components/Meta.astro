@@ -48,17 +48,6 @@ function createHref(lang: string, prefix: string, path: string): string {
 
 const fullPath: string = Astro.url.pathname;
 
-const alternateLanguageLinks: string = Object.entries(languages)
-  .map(([lang, prefix]: [string, string]) => {
-    const basePath: string =
-      lang === "en" ? fullPath.replace(/^\/fr\//, "/") : fullPath;
-
-    const href: string = createHref(lang, prefix, basePath);
-
-    return `<link rel="alternate" hreflang="${lang}" href="${href}" />`;
-  })
-  .join("\n");
-
 // Generate and optimize the favicon images
 const faviconSvg = await getImage({
   src: faviconSvgSrc,
