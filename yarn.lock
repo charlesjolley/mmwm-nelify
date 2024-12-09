@@ -1377,10 +1377,10 @@ astring@^1.8.0:
   resolved "https://registry.yarnpkg.com/astring/-/astring-1.9.0.tgz#cc73e6062a7eb03e7d19c22d8b0b3451fd9bfeef"
   integrity sha512-LElXdjswlqjWrPpJFg1Fx4wpkOCxj1TDHlSV4PlaRxHGWko024xICaa97ZkMfs6DRKlCguiAI+rbXv5GWwXIkg==
 
-astro-compressor@^0.4.1:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/astro-compressor/-/astro-compressor-0.4.1.tgz#f1253847d88f62188a851dc028206d2d67553731"
-  integrity sha512-IAgYAlxYRMolaptsFB9quH7RxX4eUeC4UfULCPhT+ILcg7m1kbaxuyUKqGg9Hh+KZ+FNPPDAz7DqUfl+HDWhQg==
+astro-compressor@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/astro-compressor/-/astro-compressor-1.0.0.tgz#e56ff64c1a3d482e0ccaa7601d4e3e8c0d1ad7d4"
+  integrity sha512-MNGRmjIsb73BIJivbU/HnTbPu5CEFvXp1NCev0bpsuK/cp4cCPX6C1omUPXzw2oQbtKv0phTTTtEk+h20SrF1Q==
 
 astro-expressive-code@^0.38.3:
   version "0.38.3"
