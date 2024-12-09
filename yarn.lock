@@ -850,10 +850,10 @@
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.8.tgz#6b79032e760a0899cd4204710beede972a3a185f"
   integrity sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==
 
-"@preline/accordion@^2.5.0":
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/@preline/accordion/-/accordion-2.5.0.tgz#255796708f7c81f69c772a275c2709b4a706c918"
-  integrity sha512-vQnRTJ0W1FNHsgwgQ/i6OXXDkRuT1oaR9WNjgTX8jeldQfnU40NYCJdjyhdPX5kCkNH2Q8AW6ihG/8XI2DNGJA==
+"@preline/accordion@^2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@preline/accordion/-/accordion-2.6.0.tgz#59c15a89f01bb9bc09e877539313820c76ac060f"
+  integrity sha512-MWZrV1RC0urfG9KuaKTd316gXK8yc8vIq3XtABCVbEf43hNRYUqLFbRPD3JTbdHtYiD/xT53NZkFC0CIvGj1yg==
 
 "@preline/collapse@^2.5.0":
   version "2.5.0"
